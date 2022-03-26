@@ -4,12 +4,6 @@ import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css'
 const Cart = (props) => {
     const { item } = props;
-    // let name = '';
-    // let image = '';
-    // for (const product of item) {
-    //     name = product.name;
-    //     image = product.img;
-    // };
     return (
         <div className='cart'>
             {

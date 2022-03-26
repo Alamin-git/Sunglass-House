@@ -35,6 +35,10 @@
     margin-bottom: 17px;
     cursor: pointer;
 }
+.btn:hover{
+    background-color: rgb(76 111 112 / 66%);
+    color: #fff;
+}
 @media only screen and (max-width: 600px) {
     .products-container{
         display: flex;
