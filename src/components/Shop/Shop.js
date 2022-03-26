@@ -18,7 +18,9 @@ const Shop = () => {
     const addToCart = (product2) => {
         const newItem = [...item, product2];
         const exists = item.find(product => product.id === product2.id);
-        if (!exists) {
+        if (item.length === 4) {
+            alert('You Can Select Only 4 Items')
+        } else if (!exists) {
             setItem(newItem);
         }
         else {

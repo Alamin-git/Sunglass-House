@@ -6,12 +6,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
-    padding: 0 30px;
-    padding-top: 35px;
+    padding: 35px 30px;
     background-color: rgba(156, 165, 194, 0.527);
 }
 .cart-container{
     background-color: rgb(155 182 235 / 52%);
+    padding-bottom: 35px;
 }
 .cart-div{
     text-align: center;
@@ -20,7 +20,7 @@
 }
 .cart-header{
     font-size: 25px;
-    padding-top: 25px;
+    padding-top: 15px;
     color: rgb(50, 135, 187);
     margin-top: 0;
 }
