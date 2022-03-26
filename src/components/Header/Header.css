@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    background-color: rgba(156, 165, 194, 0.527);
+    align-items: center;
+    justify-content: center;
+}
+.main-header{
+    font-size: 50px;
+    font-weight: 700;
+    color: aliceblue;
+    margin: 0;
+    padding: 15px;
+}
+.header-icon{
+    height: 85px;
+    width: 85px;
+}
