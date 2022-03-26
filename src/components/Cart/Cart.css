@@ -1,4 +1,17 @@
-.cart{
-    position: sticky;
-    top: 0;
+.cart-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: rgb(0 0 0 / 35%) 0px 0px 15px;
+}
+.cart-add{
+    display: flex;
+    padding: 5px 15px;
+    gap: 20px;
+    align-items: center;
+    color: rgb(50, 135, 187);
+}
+.delete-icon:hover{
+    box-shadow: rgb(0 0 0 / 35%) 0px 0px 15px;
+    cursor: pointer;
 }
