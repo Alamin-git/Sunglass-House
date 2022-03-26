@@ -2,8 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css'
-const Cart = (props) => {
-    const { item } = props;
+const Cart = ({ item }) => {
     return (
         <div className='cart'>
             {

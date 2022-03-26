@@ -9,3 +9,10 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+    .question{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+  }

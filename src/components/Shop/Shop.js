@@ -39,6 +39,7 @@ const Shop = () => {
             setSelectedItem(randomItem);
         }
     }
+
     return (
         <div className='products-container'>
             <div className="products">
