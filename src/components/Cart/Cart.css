@@ -6,6 +6,7 @@
 }
 .cart-add{
     display: flex;
+    justify-content: space-between;
     padding: 5px 15px;
     gap: 20px;
     align-items: center;

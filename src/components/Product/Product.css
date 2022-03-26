@@ -33,6 +33,7 @@
     font-size: 20px;
     color: #4848bdba;
     font-weight: 700;
+    cursor: pointer;
 }
 .cart-btn:hover{
     background-color: rgb(76 111 112 / 66%);
