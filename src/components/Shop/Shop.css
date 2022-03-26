@@ -10,7 +10,7 @@
     padding-top: 35px;
     background-color: rgba(156, 165, 194, 0.527);
 }
-.cart{
+.cart-container{
     background-color: rgb(155 182 235 / 52%);
 }
 @media only screen and (max-width: 600px) {
