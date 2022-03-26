@@ -1,0 +1,27 @@
+.products-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 0 30px;
+    padding-top: 35px;
+    background-color: rgba(156, 165, 194, 0.527);
+}
+.cart{
+    background-color: rgb(155 182 235 / 52%);
+}
+@media only screen and (max-width: 600px) {
+    .products-container{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+  }

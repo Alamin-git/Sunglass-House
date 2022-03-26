@@ -1,92 +1,92 @@
 [
   {
     "id": "623edb3d0fc69e3a66f80258",
-    "price": "$2,136.67",
-    "img": "http://placehold.it/32x32",
+    "price": "$36",
+    "img": "./images/Daco_1253252.png",
     "name": "Riddle Anderson"
   },
   {
     "id": "623edb3d5bb5af9770839f94",
-    "price": "$2,909.09",
-    "img": "http://placehold.it/32x32",
+    "price": "$99",
+    "img": "./images/Daco_1434265.png",
     "name": "Powers Roy"
   },
   {
     "id": "623edb3d8c63c9fd3ef9f837",
-    "price": "$2,327.58",
-    "img": "http://placehold.it/32x32",
+    "price": "$27",
+    "img": "./images/Daco_2884538.png",
     "name": "Elisabeth Richmond"
   },
   {
     "id": "623edb3dd3c121f43ca9589f",
-    "price": "$1,245.66",
-    "img": "http://placehold.it/32x32",
+    "price": "$45",
+    "img": "./images/Daco_2914788.png",
     "name": "Hallie Mcknight"
   },
   {
     "id": "623edb3dd703e05ddfc22929",
-    "price": "$3,649.91",
-    "img": "http://placehold.it/32x32",
+    "price": "$49",
+    "img": "./images/Daco_4046339.png",
     "name": "Fowler Burton"
   },
   {
     "id": "623edb3d26ff0cc2cf016f4e",
-    "price": "$3,837.17",
-    "img": "http://placehold.it/32x32",
+    "price": "$37",
+    "img": "./images/Daco_4046893.png",
     "name": "Bishop Shaffer"
   },
   {
     "id": "623edb3d42d698527c7b49ba",
-    "price": "$3,031.07",
-    "img": "http://placehold.it/32x32",
+    "price": "$31",
+    "img": "./images/Daco_4107191.png",
     "name": "Christy Harvey"
   },
   {
     "id": "623edb3dee6658f1390365ad",
-    "price": "$1,135.56",
-    "img": "http://placehold.it/32x32",
+    "price": "$35",
+    "img": "./images/Daco_4450677.png",
     "name": "Lester Thomas"
   },
   {
     "id": "623edb3d7f820f84747c5f7f",
-    "price": "$1,032.48",
-    "img": "http://placehold.it/32x32",
+    "price": "$32",
+    "img": "./images/Daco_4727065.png",
     "name": "Wolfe Burch"
   },
   {
     "id": "623edb3de60a9a45d80b15ef",
-    "price": "$1,409.40",
-    "img": "http://placehold.it/32x32",
+    "price": "$49",
+    "img": "./images/Daco_5212864.png",
     "name": "Amanda Hickman"
   },
   {
     "id": "623edb3d39444199a580294d",
-    "price": "$3,928.73",
-    "img": "http://placehold.it/32x32",
+    "price": "$28",
+    "img": "./images/Daco_608356.png",
     "name": "Franklin Orr"
   },
   {
     "id": "623edb3d929bd73937eef982",
-    "price": "$1,533.59",
-    "img": "http://placehold.it/32x32",
+    "price": "$53",
+    "img": "./images/Daco_6878.png",
     "name": "Flora Lindsay"
   },
   {
     "id": "623edb3dadbddcbac32acbdc",
-    "price": "$1,795.68",
-    "img": "http://placehold.it/32x32",
+    "price": "$95",
+    "img": "./images/Daco_6926.png",
     "name": "Jeanette Hodges"
   },
   {
     "id": "623edb3dea7c72d02318969f",
-    "price": "$1,098.90",
-    "img": "http://placehold.it/32x32",
+    "price": "$98",
+    "img": "./images/Daco_7105.png",
     "name": "Betty Guzman"
   },
   {
     "id": "623edb3d4a34d1e46efcc686",
-    "price": "$1,853.40",
-    "img": "http://placehold.it/32x32",
+    "price": "$53",
+    "img": "./images/Daco_7161.png",
     "name": "Clarissa Wiley"
   }
 ]

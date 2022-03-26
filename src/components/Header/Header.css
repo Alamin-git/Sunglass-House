@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    background-color: rgba(156, 165, 194, 0.527);
+    background-color: rgb(175 199 215);
     align-items: center;
     justify-content: center;
 }
@@ -10,8 +10,18 @@
     color: aliceblue;
     margin: 0;
     padding: 15px;
+   text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .header-icon{
     height: 85px;
     width: 85px;
 }
+@media only screen and (max-width: 600px) {
+    .header{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .main-header{
+        font-size: 40px;
+    }
+  }
