@@ -1,5 +1,5 @@
 import React from 'react';
-import './RendomOne.css'
+import './RandomOne.css'
 const RandomOne = (props) => {
     console.log(props);
     const { randomItem } = props

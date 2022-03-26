@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
-import RandomOne from '../RendomOne/RendomOne';
+import RandomOne from '../RandomOne/RandomOne';
 import './Shop.css'
 
 const Shop = () => {
+    // load json data
     const [products, setProducts] = useState([]);
     useEffect(() => {
         fetch('products.json')
@@ -12,7 +13,7 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, []);
 
-
+    // add cart or selected product
     const [item, setItem] = useState([]);
     const addToCart = (product2) => {
         const newItem = [...item, product2];
@@ -24,10 +25,17 @@ const Shop = () => {
             alert('Item Already Selected');
         }
     };
+    // remove items
+    const removeItem = () => {
+        setItem([]);
+    }
+    // Choose Random One
     const [selectedItem, setSelectedItem] = useState([]);
     const chooseOne = (items) => {
-        const randomItem = items[Math.floor(Math.random() * items.length)];
-        setSelectedItem(randomItem);
+        if (items.length >= 1) {
+            const randomItem = items[Math.floor(Math.random() * items.length)];
+            setSelectedItem(randomItem);
+        }
     }
     return (
         <div className='products-container'>
@@ -48,7 +56,10 @@ const Shop = () => {
                         className='btn'
                         onClick={() => chooseOne(item)}
                     >Choose One For Me</button><br />
-                    <button className='btn'>Remove All</button>
+                    <button
+                        className='btn'
+                        onClick={removeItem}
+                    >Remove All</button>
                     <RandomOne randomItem={selectedItem}></RandomOne>
                 </div>
             </div>
